@@ -6,7 +6,7 @@
 /*   By: cajose-s <cajose-s@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/22 20:02:35 by cajose-s          #+#    #+#             */
-/*   Updated: 2021/10/25 15:04:32 by cajose-s         ###   ########.fr       */
+/*   Updated: 2021/10/25 16:26:08 by cajose-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 # include <stdarg.h>
 # include <unistd.h>
-# include "../libft/libft.h"
+# include "libft/libft.h"
 
 int	ft_printf(const char *format, ...);
 int	ft_putchar(char c);

@@ -6,7 +6,7 @@
 /*   By: cajose-s <cajose-s@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/22 19:51:06 by cajose-s          #+#    #+#             */
-/*   Updated: 2021/10/25 14:59:22 by cajose-s         ###   ########.fr       */
+/*   Updated: 2021/10/25 16:29:47 by cajose-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,8 +52,6 @@ int	ft_put_pointer(void *nbr, char *base)
 	char			*str;
 	unsigned long	n;
 
-	if (nbr == 0)
-		return (write(1, "(nil)", 5));
 	n = (unsigned long)nbr;
 	str = hex_to_str(n, base);
 	len = ft_putstr("0x") + ft_putstr(str);
